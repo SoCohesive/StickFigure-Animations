@@ -16,9 +16,9 @@
 - (IBAction)cheersButton:(id)sender;
 - (IBAction)karateKickButton:(id)sender;
 
-@property (weak, nonatomic) IBOutlet UIImageView *cheersAnimationView;
+@property (weak, nonatomic) IBOutlet UIImageView *animationView;
 @property (weak, nonatomic) IBOutlet UIImageView *stillStickFigureImageView;
 - (IBAction)stopFreddyButton:(id)sender;
-@property (weak, nonatomic) IBOutlet UIWebView *kickWebView;
+
 
 @end

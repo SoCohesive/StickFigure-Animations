@@ -60,7 +60,7 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="center" id="6pg-9u-a2h" userLabel="CheersAnimationImageView">
+                            <imageView userInteractionEnabled="NO" contentMode="center" id="6pg-9u-a2h" userLabel="AnimationImageView">
                                 <rect key="frame" x="57" y="81" width="195" height="264"/>
                                 <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                             </imageView>
@@ -84,7 +84,7 @@
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina4"/>
                     <connections>
-                        <outlet property="cheersAnimationView" destination="6pg-9u-a2h" id="Anj-sm-ow8"/>
+                        <outlet property="animationView" destination="6pg-9u-a2h" id="rie-eH-BSc"/>
                         <outlet property="imageView" destination="6pg-9u-a2h" id="X28-jG-73h"/>
                         <outlet property="stillStickFigureImageView" destination="8Nc-qA-zBj" id="m4O-cX-epC"/>
                     </connections>
@@ -103,6 +103,7 @@
                 <relationship kind="action" name="cheersButton:"/>
                 <relationship kind="action" name="karateKickButton:"/>
                 <relationship kind="action" name="stopFreddyButton:"/>
+                <relationship kind="outlet" name="animationView" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="cheersAnimationView" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="imageView" candidateClass="UIImageView"/>
                 <relationship kind="outlet" name="kickWebView" candidateClass="UIWebView"/>
